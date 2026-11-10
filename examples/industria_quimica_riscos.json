@@ -1,0 +1,98 @@
+{
+  "identificacao_edificio": "Complexo Petroquímico Polo ABC",
+  "ocupacao": "Industrial de Alto Risco / Inflamáveis (Grupo I-3)",
+  "responsavel_tecnico": "Eng. Martin Lofrano de Oliveira - CREA/SP",
+  "categoria_fotoluminescente_padrao": "CATEGORIA_X",
+  "placas_individuais": [
+    {
+      "id": "ALT-01",
+      "codigo": "AL-1",
+      "descricao": "Perigo: Risco de Alta Tensão 13.8kV - Subestação Principal",
+      "tipo": "ALERTA",
+      "distancia_visualizacao_m": 12,
+      "iluminacao_direta": false,
+      "forma": "TRIANGULAR",
+      "categoria_fotoluminescente": "CATEGORIA_X",
+      "posicao": "SUPERIOR",
+      "altura_instalacao_m": "1.80",
+      "quantidade": 4
+    },
+    {
+      "id": "ALT-INF",
+      "codigo": "AL-2",
+      "descricao": "Perigo: Atmosfera Inflamável - Produtos Voláteis Classe 1",
+      "tipo": "ALERTA",
+      "distancia_visualizacao_m": 10,
+      "iluminacao_direta": false,
+      "forma": "TRIANGULAR",
+      "categoria_fotoluminescente": "CATEGORIA_X",
+      "posicao": "SUPERIOR",
+      "altura_instalacao_m": "1.80",
+      "quantidade": 6
+    },
+    {
+      "id": "PRO-CHAMA",
+      "codigo": "P-3",
+      "descricao": "Proibido Produzir Chama Aberta ou Portar Isqueiro/Fósforo",
+      "tipo": "PROIBICAO",
+      "distancia_visualizacao_m": 8,
+      "iluminacao_direta": false,
+      "forma": "CIRCULAR",
+      "categoria_fotoluminescente": "CATEGORIA_X",
+      "posicao": "SUPERIOR",
+      "altura_instalacao_m": "1.80",
+      "quantidade": 6
+    },
+    {
+      "id": "EXT-CARRETA",
+      "codigo": "E-2",
+      "descricao": "Carreta Extintora Sobre Rodas Espuma Mecânica 50L",
+      "tipo": "COMBATE_INCENDIO",
+      "distancia_visualizacao_m": 14,
+      "iluminacao_direta": false,
+      "forma": "QUADRADA",
+      "categoria_fotoluminescente": "CATEGORIA_X",
+      "posicao": "SUPERIOR",
+      "altura_instalacao_m": "1.80",
+      "quantidade": 2
+    },
+    {
+      "id": "CHUVEIRO-EMERG",
+      "codigo": "S-6",
+      "descricao": "Chuveiro de Emergência e Lava-Olhos Descontaminação",
+      "tipo": "ORIENTACAO_SALVAMENTO",
+      "distancia_visualizacao_m": 10,
+      "iluminacao_direta": false,
+      "forma": "QUADRADA",
+      "categoria_fotoluminescente": "CATEGORIA_X",
+      "posicao": "SUPERIOR",
+      "altura_instalacao_m": "2.10",
+      "quantidade": 2
+    },
+    {
+      "id": "SOLO-CARRETA",
+      "codigo": "CP-1",
+      "descricao": "Demarcação de Piso para Carreta Extintora (1,00m x 1,00m)",
+      "tipo": "COMPLEMENTAR_PISO",
+      "distancia_visualizacao_m": 6,
+      "iluminacao_direta": false,
+      "forma": "QUADRADA",
+      "categoria_fotoluminescente": "CATEGORIA_X",
+      "posicao": "PISO",
+      "altura_instalacao_m": 0,
+      "quantidade": 2
+    }
+  ],
+  "trechos_rotas": [
+    {
+      "id": "ROTA-GALPAO-A",
+      "descricao": "Rota Principal de Escape do Galpão de Reatores Químicos",
+      "comprimento_m": 50,
+      "mudancas_direcao": 2,
+      "portas_saida": 2,
+      "distancia_visualizacao_desejada_m": 15,
+      "iluminacao_direta": false,
+      "categoria_fotoluminescente": "CATEGORIA_X"
+    }
+  ]
+}

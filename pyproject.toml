@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dimensionamento-sinalizacao-emergencia-nbr16820"
+version = "1.0.0"
+description = "Dimensionamento e Projeto de Sinalização de Emergência Contra Incêndio (ABNT NBR 16820:2020) - Lofrano Tecnologia"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "Lofrano Tecnologia", email = "contato@lofranotecnologia.com.br" }
+]
+keywords = [
+    "engenharia-de-incendio",
+    "abnt-nbr-16820",
+    "sinalizacao-de-emergencia",
+    "fotoluminescente",
+    "rotas-de-fuga",
+    "prevencao-panico",
+    "zero-float",
+    "lofrano-tecnologia"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Portuguese (Brazilian)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.scripts]
+sinalizacao-nbr16820 = "sinalizacao_nbr16820.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+sinalizacao_nbr16820 = ["py.typed"]

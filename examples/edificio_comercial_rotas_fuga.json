@@ -1,0 +1,108 @@
+{
+  "identificacao_edificio": "Torre Corporativa Faria Lima",
+  "ocupacao": "Comercial / Escritórios Administrativos (Grupo D)",
+  "responsavel_tecnico": "Eng. Martin Lofrano de Oliveira - CREA/SP",
+  "categoria_fotoluminescente_padrao": "CATEGORIA_W",
+  "placas_individuais": [
+    {
+      "id": "EXT-01",
+      "codigo": "E-1",
+      "descricao": "Extintor de Incêndio Pó Químico ABC 6kg - Hall Principal",
+      "tipo": "COMBATE_INCENDIO",
+      "distancia_visualizacao_m": 8,
+      "iluminacao_direta": false,
+      "forma": "QUADRADA",
+      "categoria_fotoluminescente": "CATEGORIA_W",
+      "posicao": "SUPERIOR",
+      "altura_instalacao_m": "1.80",
+      "quantidade": 3
+    },
+    {
+      "id": "HID-01",
+      "codigo": "H-1",
+      "descricao": "Abrigo de Mangueira de Hidrante de Parede - Circulação",
+      "tipo": "COMBATE_INCENDIO",
+      "distancia_visualizacao_m": 10,
+      "iluminacao_direta": false,
+      "forma": "QUADRADA",
+      "categoria_fotoluminescente": "CATEGORIA_W",
+      "posicao": "SUPERIOR",
+      "altura_instalacao_m": "1.80",
+      "quantidade": 2
+    },
+    {
+      "id": "ALM-01",
+      "codigo": "A-1",
+      "descricao": "Acionador Manual de Alarme de Incêndio Tipo Botoeira",
+      "tipo": "ALARME",
+      "distancia_visualizacao_m": 6,
+      "iluminacao_direta": false,
+      "forma": "QUADRADA",
+      "categoria_fotoluminescente": "CATEGORIA_W",
+      "posicao": "MEDIA",
+      "altura_instalacao_m": "1.35",
+      "quantidade": 2
+    },
+    {
+      "id": "PRO-01",
+      "codigo": "P-1",
+      "descricao": "Proibido Fumar em Todo o Edifício",
+      "tipo": "PROIBICAO",
+      "distancia_visualizacao_m": 6,
+      "iluminacao_direta": false,
+      "forma": "CIRCULAR",
+      "categoria_fotoluminescente": "CATEGORIA_W",
+      "posicao": "SUPERIOR",
+      "altura_instalacao_m": "1.80",
+      "quantidade": 4
+    },
+    {
+      "id": "PRO-ELEV",
+      "codigo": "P-2",
+      "descricao": "Em Caso de Incêndio Não Use o Elevador - Chame a Escada",
+      "tipo": "PROIBICAO",
+      "distancia_visualizacao_m": 5,
+      "iluminacao_direta": false,
+      "forma": "CIRCULAR",
+      "categoria_fotoluminescente": "CATEGORIA_W",
+      "posicao": "SUPERIOR",
+      "altura_instalacao_m": "1.80",
+      "quantidade": 4
+    },
+    {
+      "id": "SOLO-01",
+      "codigo": "CP-1",
+      "descricao": "Demarcação de Solo de Extintor (1,00m x 1,00m)",
+      "tipo": "COMPLEMENTAR_PISO",
+      "distancia_visualizacao_m": 5,
+      "iluminacao_direta": false,
+      "forma": "QUADRADA",
+      "categoria_fotoluminescente": "CATEGORIA_W",
+      "posicao": "PISO",
+      "altura_instalacao_m": 0,
+      "quantidade": 3
+    }
+  ],
+  "trechos_rotas": [
+    {
+      "id": "ROTA-TERREO",
+      "descricao": "Corredor Central de Fuga do Térreo até o Hall de Saída",
+      "comprimento_m": 42,
+      "mudancas_direcao": 2,
+      "portas_saida": 2,
+      "distancia_visualizacao_desejada_m": 12,
+      "iluminacao_direta": false,
+      "categoria_fotoluminescente": "CATEGORIA_W"
+    },
+    {
+      "id": "ROTA-ESCADA",
+      "descricao": "Circulação Pavimento Tipo até a Antecâmara da Escada PF",
+      "comprimento_m": 25,
+      "mudancas_direcao": 1,
+      "portas_saida": 1,
+      "distancia_visualizacao_desejada_m": 10,
+      "iluminacao_direta": false,
+      "categoria_fotoluminescente": "CATEGORIA_W"
+    }
+  ]
+}

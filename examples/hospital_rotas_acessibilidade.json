@@ -1,0 +1,72 @@
+{
+  "identificacao_edificio": "Hospital Universitário Santa Tereza",
+  "ocupacao": "Hospitalar / Internação e Pronto-Socorro (Grupo H-3)",
+  "responsavel_tecnico": "Eng. Martin Lofrano de Oliveira - CREA/SP",
+  "categoria_fotoluminescente_padrao": "CATEGORIA_X",
+  "placas_individuais": [
+    {
+      "id": "REFUGIO-PMR",
+      "codigo": "S-7",
+      "descricao": "Área de Refúgio Temporário para Cadeirantes e PMR",
+      "tipo": "ORIENTACAO_SALVAMENTO",
+      "distancia_visualizacao_m": 8,
+      "iluminacao_direta": true,
+      "forma": "QUADRADA",
+      "categoria_fotoluminescente": "NAO_APLICAVEL",
+      "posicao": "SUPERIOR",
+      "altura_instalacao_m": "2.10",
+      "quantidade": 4
+    },
+    {
+      "id": "EXT-CO2",
+      "codigo": "E-3",
+      "descricao": "Extintor de Incêndio Dióxido de Carbono CO2 6kg - Centro Cirúrgico",
+      "tipo": "COMBATE_INCENDIO",
+      "distancia_visualizacao_m": 8,
+      "iluminacao_direta": false,
+      "forma": "QUADRADA",
+      "categoria_fotoluminescente": "CATEGORIA_X",
+      "posicao": "SUPERIOR",
+      "altura_instalacao_m": "1.80",
+      "quantidade": 6
+    },
+    {
+      "id": "ALM-HOSP",
+      "codigo": "A-1",
+      "descricao": "Acionador Manual de Alarme Endereçável com Chave de Bloqueio",
+      "tipo": "ALARME",
+      "distancia_visualizacao_m": 6,
+      "iluminacao_direta": false,
+      "forma": "QUADRADA",
+      "categoria_fotoluminescente": "CATEGORIA_X",
+      "posicao": "MEDIA",
+      "altura_instalacao_m": "1.30",
+      "quantidade": 4
+    },
+    {
+      "id": "RODAPE-01",
+      "codigo": "CR-1",
+      "descricao": "Placa Indicativa de Sinalização Baixa de Escape em Rodapé",
+      "tipo": "COMPLEMENTAR_RODAPE",
+      "distancia_visualizacao_m": 5,
+      "iluminacao_direta": false,
+      "forma": "RETANGULAR_2X1",
+      "categoria_fotoluminescente": "CATEGORIA_X",
+      "posicao": "RODAPE",
+      "altura_instalacao_m": "0.30",
+      "quantidade": 12
+    }
+  ],
+  "trechos_rotas": [
+    {
+      "id": "ROTA-LEITOS-ALA-SUL",
+      "descricao": "Corredor Principal de Leitos da Ala Sul até a Rampa de Emergência",
+      "comprimento_m": 38,
+      "mudancas_direcao": 1,
+      "portas_saida": 2,
+      "distancia_visualizacao_desejada_m": 12,
+      "iluminacao_direta": true,
+      "categoria_fotoluminescente": "CATEGORIA_X"
+    }
+  ]
+}
